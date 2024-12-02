@@ -34,6 +34,9 @@ pause
     pause 
         start CrystalDisk
 pause
+    echo ======================= удаление логов CrystalDisk =======================
+        @RD /S /Q "CrystalDiskInfo\Smart"
+pause
     echo ======================= проверка батареи =======================
     pause
         start gBatteryInfoView.exe
