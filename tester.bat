@@ -8,6 +8,8 @@ ECHO HARDWARE INFO
 
 ECHO ============================
 
+wmic csproduct get IdentifyingNumber,Name
+
 systeminfo | findstr /c:"Total Physical Memory"
 
 wmic cpu get name
