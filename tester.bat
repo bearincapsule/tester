@@ -59,6 +59,11 @@ pause
     pause
         devmgmt.msc
 pause
+    echo ======================= сброс пароля =======================
+    set /p "choice=Сбросить пароль = [1]; Проверить сброс = [2]. = "
+    if '%choice%' == '1' net accounts /maxpwage:unlimited
+    if '%choice%' == '2' net accounts
+pause
     set /p "choice=Нужно ли проверить тачскрин?[1 - нет(по-умолчанию), 2 - да] = "
     if '%choice%' == '2' start IsMyTouchScreenOK_x64.exe
 pause
