@@ -22,7 +22,7 @@ wmic path win32_VideoController get CurrentHorizontalResolution,CurrentVerticalR
 
     set "choice="
     set /p "choice=Нужно ли запустить HWiNFO(для подробной информации)[1 - нет(по-умолчанию), 2 - да] = "
-    if '%choice%' == '2' start HWiNFO64
+    if '%choice%' == '2' start HWiNFO64\HWiNFO64.exe
 pause
     echo ======================= проверка стерео =======================
     pause
@@ -34,7 +34,7 @@ pause
 pause
     echo ======================= проверка ssd =======================
     pause 
-        start CrystalDisk
+        start CrystalDiskInfo\DiskInfo64.exe
 pause
     echo ======================= удаление логов CrystalDisk =======================
         @RD /S /Q "CrystalDiskInfo\Smart"
