@@ -1,0 +1,8 @@
+timestamp,serial_number,model,cpu,ram,disk,gpu,screen_resolution,hwinfo_ran,audio_test_ok,camera_ok,ssd_tool_ok,smart_logs_deleted,battery_ok,screen_ok,keyboard_ok,microphone_ok,devicemanager_ok,accounts_bat_called,touchscreen_ok,notes
+2025-05-19T17:42:11.568956,5CG9093VBD,HP EliteBook 850 G5,Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz,"Total Physical Memory:         16,003 MB","Model                       Name                Size          
+
+SAMSUNG MZVLB256HAHQ-000H1  \\.\PHYSICALDRIVE0  256052966400","Name                       
+
+Intel(R) UHD Graphics 620","CurrentHorizontalResolution  CurrentVerticalResolution  
+
+1920                         1080",True,True,True,True,True,True,True,True,False,True,True,False,kek
