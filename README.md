@@ -1,7 +1,7 @@
+# РАБОТАЮЩАЯ версия скрипта находится в ветке [working_stuff](https://github.com/bearincapsule/tester/tree/working_stuff)
+
 # tester
 тестер, пока что только для ноутбуков
-
-# ***РАБОТАЮЩАЯ версия скрипта находится в ветке [working_stuff](https://github.com/bearincapsule/tester/tree/working_stuff) ***
 
 **ВАЖНО это для упрощения процесса, чтобы ничего не забыть и все сделать, все ещё главный тестер это ВЫ**
 так что смотрим, слушаем, глазки не отрываем
