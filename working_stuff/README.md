@@ -1,3 +1,5 @@
+# РАБОТАЮЩАЯ версия скрипта находится в ветке [working_stuff](https://github.com/bearincapsule/tester/tree/working_stuff)
+
 # tester
 тестер, пока что только для ноутбуков
 
