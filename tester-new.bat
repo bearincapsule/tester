@@ -151,6 +151,9 @@ echo ► Текущие настройки срока действия паро�
 echo.
     set /p "choice=► Сбросить ограничение на срок действия пароля? [1 - ДА, ENTER - НЕТ]: "
     if '%choice%' == '1' powershell -Command "Start-Process -FilePath 'cmd' -Verb RunAs -ArgumentList '/c chcp 65001 >nul && net accounts /maxpwage:unlimited && pause'"
+echo ► Проверка применения настроек...
+pause >nul
+    net accounts | findstr /c:"Maximum password age (days):"
 echo ► Нажмите любую клавишу для продолжения...
 pause >nul
 
